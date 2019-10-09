@@ -1,0 +1,2 @@
+- Git淘宝镜像下载地址 https://npm.taobao.org/mirrors/git-for-windows/
+- git下载地址：https://git-scm.com/download/win
