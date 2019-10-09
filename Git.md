@@ -6,11 +6,11 @@
 
 2.  选择安装路径
 
-   ![2](C:\Users\Administrator\Desktop\hyzh\image\Git\2.png)
+   ![2](.\image\Git\2.png)
 
 3. 选择组件
 
-   ![3](C:\Users\Administrator\Desktop\hyzh\image\Git\3.png)
+   ![3](.\image\Git\3.png)
 
 - Additional icons 附加图标
   
@@ -40,43 +40,43 @@
 
 4. 是否创建开始菜单目录
 
-   ![4](C:\Users\Administrator\Desktop\hyzh\image\Git\4.png)
+   ![4](.\image\Git\4.png)
 
 5. 选择默认编辑器
 
-   ![5](C:\Users\Administrator\Desktop\hyzh\image\Git\5.png)
+   ![5](.\image\Git\5.png)
 
 6.  cmd可以执行git命令
 
-   ![6](C:\Users\Administrator\Desktop\hyzh\image\Git\6.png)
+   ![6](.\image\Git\6.png)
 
 7.   
 
-   ![7](C:\Users\Administrator\Desktop\hyzh\image\Git\7.png)
+   ![7](.\image\Git\7.png)
 
 8.  
 
-   ![8](C:\Users\Administrator\Desktop\hyzh\image\Git\8.png)
+   ![8](.\image\Git\8.png)
 
 9.  
 
-   ![9](C:\Users\Administrator\Desktop\hyzh\image\Git\9.png)
+   ![9](.\image\Git\9.png)
 
 10.  
 
-    ![10](C:\Users\Administrator\Desktop\hyzh\image\Git\10.png)
+    ![10](.\image\Git\10.png)
 
 11. 安装
 
-    ![11](C:\Users\Administrator\Desktop\hyzh\image\Git\11.png)
+    ![11](.\image\Git\11.png)
 
 12. 安装过程，等
 
-    ![12](C:\Users\Administrator\Desktop\hyzh\image\Git\12.png)
+    ![12](.\image\Git\12.png)
 
 13.  安装完成
 
-    ![13](C:\Users\Administrator\Desktop\hyzh\image\Git\13.png)
+    ![13](.\image\Git\13.png)
 
 
 
@@ -284,25 +284,25 @@ git branch -d f1
 
 1. 打开你的仓库
 
-   ![1](C:\Users\Administrator\Desktop\hyzh\image\Github\1.png)
+   ![1](.\image\Github\1.png)
 
 2. 点击你的其中某一个仓库进入详情
 
 3. 点击**settings**
 
-   ![2](C:\Users\Administrator\Desktop\hyzh\image\Github\2.png)
+   ![2](.\image\Github\2.png)
 
 4. 拉倒最下面，有个删除这个仓库的选项
 
-   ![3](C:\Users\Administrator\Desktop\hyzh\image\Github\3.png)
+   ![3](.\image\Github\3.png)
 
 5. 然后弹出一个框，需要你输入这个仓库名，确保没有删错
 
-   ![4](C:\Users\Administrator\Desktop\hyzh\image\Github\4.png)
+   ![4](.\image\Github\4.png)
 
 6. 然后输入Github密码，确保是本人登录
 
-   ![5](C:\Users\Administrator\Desktop\hyzh\image\Github\5.png)
+   ![5](.\image\Github\5.png)
 
 7. 然后就删除了
 
@@ -336,7 +336,7 @@ git branch -d f1
 
 6. 勾选这个，会在仓库生成一个说明文件
 
-   ![6](C:\Users\Administrator\Desktop\hyzh\image\Github\6.png)
+   ![6](.\image\Github\6.png)
 
 7. 创建好之后，复制SSH地址
 
