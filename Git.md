@@ -418,17 +418,17 @@ git config --list
 
 # 7. 解决Git bash，git status乱码文问题
 
-1. 原因：在默认设置下，中文文件名在工作区状态输出，中文名不能正确显示，而是显示为八进制的字符编码。把core.quotepath设置为false
+1. 原因：在默认设置下，中文文件名在工作区状态输出，中文名不能正确显示，而是显示为八进制的字符编码。把core.quotepath设置为false，一般问题可以解决
 
    ```
    git config --global core.quotepath false
    ```
 
-2. 显示还是乱码
+2. 如果显示还是乱码
 
    `选项->文本->本地Locale`，设置为`zh_CN`，而旁边的字符集选框选为`UTF-8`。
 
-   ![14](C:\Users\ben\Desktop\hyzh\study\image\Git\14.png)
+   ![14](.\image\Git\14.png)
 
 3. 最终解决办法
 
