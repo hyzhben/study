@@ -415,3 +415,30 @@ git config --list
    以叹号`!`表示不忽略(跟踪)匹配到的文件或目录；
 
    此外，git 对于 .ignore 配置文件是按行从上到下进行规则匹配的，意味着如果前面的规则匹配的范围更大，则后面的规则将不会生效；
+
+# 7. 解决Git bash，git status乱码文问题
+
+1. 原因：在默认设置下，中文文件名在工作区状态输出，中文名不能正确显示，而是显示为八进制的字符编码。把core.quotepath设置为false
+
+   ```
+   git config --global core.quotepath false
+   ```
+
+2. 显示还是乱码
+
+   `选项->文本->本地Locale`，设置为`zh_CN`，而旁边的字符集选框选为`UTF-8`。
+
+   ![14](C:\Users\ben\Desktop\hyzh\study\image\Git\14.png)
+
+3. 最终解决办法
+
+   ```
+   git config --global core.quotepath false 
+   git config --global gui.encoding utf-8
+   git config --global i18n.commit.encoding utf-8 
+   git config --global i18n.logoutputencoding utf-8 
+   export LESSCHARSET=utf-8
+   ```
+
+   把最后一个变量**LESSCHARSET**添加到Windows环境变量中
+
